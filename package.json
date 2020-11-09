@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node db/connection.js"
+    "start": "nodemon index.js"
   },
   "author": "Jesús Antonio Zúñiga Arce <jzuniga@uabcs.mx>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0"
   }
 }
